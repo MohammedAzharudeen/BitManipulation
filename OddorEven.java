@@ -5,14 +5,14 @@ import java.util.*;
 public class OddorEven {
 	
 	public static boolean oddoreven1(int a) {
-		if((a&1)!=1) {
+		if((a&1)!=1) {                  //using "&"
 			return true;
 		}
 		return false;
 	}
 	
 	public static boolean oddoreven2(int a) {
-		if((a^1)==a+1) {
+		if((a^1)==a+1) {                 //using "^"
 			return true;
 		}
 		return false;
