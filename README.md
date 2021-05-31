@@ -4,6 +4,7 @@
     - using "&"
     - using "^"
 - Swap
-- Case Conversion
+- Case Conversion (letter)
     - Upper to Lower
     - Lower to Upper
+- Case Coversion (word)
