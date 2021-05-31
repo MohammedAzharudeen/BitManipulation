@@ -9,7 +9,7 @@ public class CaseConversion {
 	}
 	
 	public static char lowerToUpper(char ch) {
-		return (char)(ch & ~32);
+		return (char)(ch^32);                           //also use (ch & ~32).
 	}
 	
 	public static void main(String[] args) {
